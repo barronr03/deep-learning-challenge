@@ -1,8 +1,8 @@
-## Overview of the Analysis
+## OVERVIEW
 
 * The purpose of this analysis is to develop a deep learning model using TensorFlow to predict the success of funding applications for Alphabet Soup, a charity organization. The goal is to create a model that can accurately classify whether a funding application will be successful or not based on various input features.
 
-## Results
+## RESULTS
 
  ## Data Preprocessing:
 
@@ -21,7 +21,7 @@ Increasing the number of neurons in the hidden layers to capture more complex pa
 Adjusting the number of epochs to find the optimal balance between training time and model accuracy.
 Optimizing the learning rate to control the convergence speed and avoid overshooting the optimal solution.
 
-## Summary
+## SUMMARY
 
 * The deep learning model developed for Alphabet Soup showed promising results in predicting the success of funding applications. By implementing various optimizations, such as adjusting the number of neurons, epochs, and learning rate, the model's performance was improved. However, despite these efforts, the final model achieved an accuracy of approximately 72-73%, which did not meet the target accuracy of 75%. Although the model did not reach the desired accuracy level, it still provides valuable insights into the factors influencing funding success and can be used as a starting point for further improvements or alternative modeling approaches
 
