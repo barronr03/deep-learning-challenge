@@ -7,7 +7,7 @@
  ## Data Preprocessing:
 
 * Target Variable: The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether the funding application was successful or not.
-* Feature Variables: The features for the model include various columns such as "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," "USE_CASE," "ORGANIZATION," "STATUS," "INCOME_AMT," "SPECIAL_CONSIDERATIONS," and "ASK_AMT."
+* Feature Variables: The features for the model include various columns such as "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," "USE_CASE," "ORGANIZATION," "STATUS," "INCOME_AMT," "SPECIAL_CONSIDERATIONS," and "ASK_AMT." 
 * Variables to be Removed: The "EIN" and "NAME" columns are removed from the input data as they are neither targets nor features.
 
  ## Compiling, Training, and Evaluating the Model:
