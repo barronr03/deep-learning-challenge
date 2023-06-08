@@ -4,17 +4,18 @@
 
 ## RESULTS
 
- ## Data Preprocessing:
+ #### Data Preprocessing:
 
 * Target Variable: The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether the funding application was successful or not.
 * Feature Variables: The features for the model include various columns such as "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," "USE_CASE," "ORGANIZATION," "STATUS," "INCOME_AMT," "SPECIAL_CONSIDERATIONS," and "ASK_AMT." 
 * Variables to be Removed: The "EIN" and "NAME" columns are removed from the input data as they are neither targets nor features.
 
- ## Compiling, Training, and Evaluating the Model:
-.
+ #### Compiling, Training, and Evaluating the Model:
 
 * Neurons, Layers, and Activation Functions: The selected model architecture includes two hidden layers with 80 and 30 neurons, respectively. The activation function used for the hidden layers is "relu," which helps introduce non-linearity and captures complex patterns in the data. The output layer uses the "sigmoid" activation function to produce a binary classification result.
-* Target Model Performance: The target model performance was set to achieve an accuracy higher than 75%.
+* Target Model Performance: The target model performance was set to achieve an accuracy higher than 75%, however the model don't reached the target:
+    * loss: 0.5592 - accuracy: 0.7254 - 441ms/epoch - 2ms/step
+
 * Steps to Increase Model Performance: Several steps were taken to improve the model performance:
 Data preprocessing: Binning rare occurrences in the "APPLICATION_TYPE" and "CLASSIFICATION" columns to reduce the number of unique values.
 Increasing the number of neurons in the hidden layers to capture more complex patterns in the data.
