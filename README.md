@@ -34,6 +34,4 @@
 
 #### Recommendation
 
-* To further enhance the model's performance, it is recommended to explore alternative model architectures or algorithms. One possible approach is to try different types of neural networks, such as convolutional neural networks (CNNs) or recurrent neural networks (RNNs), depending on the nature of the input data. These models are specifically designed to capture spatial or temporal patterns, respectively, and may be more suitable for certain types of data. Additionally, ensemble methods, such as random forests or gradient boosting, can be considered to combine multiple models and improve prediction accuracy.
-
-* By experimenting with different model architectures and algorithms, Alphabet Soup can continue to refine their funding application prediction system and make more informed decisions regarding the allocation of resources to maximize the impact of their charitable activities.
+* To further enhance the model's performance, it is recommended to explore alternative model architectures or algorithms, ensemble methods, such as random forests, can be considered to combine multiple models and improve prediction accuracy. By experimenting with different model architectures and algorithms, Alphabet Soup can continue to refine their funding application prediction system and make more informed decisions regarding the allocation of resources to maximize the impact of their charitable activities.
